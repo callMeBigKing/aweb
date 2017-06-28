@@ -28,15 +28,24 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/repute57x57.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 </head>
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        $('#carousel-hero').carousel({
+        interval: 10000
+        });
+    })
+
+</script>
 
 <body>
 <!-- WRAPPER -->
 <div class="wrapper">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-default " role="navigation" >
-        <div class="container" >
-            <div class="navbar-header"  style="height:80px">
-                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+    <nav class="navbar navbar-default " role="navigation">
+        <div class="container">
+            <div class="navbar-header" style="height:80px">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
                     <span class="sr-only">Toggle Navigation</span> <em class="fa fa-bars"></em></button>
                 <a href="index.html" class="navbar-brand navbar-logo" style="padding:0">
                     <img src="assets/img/logo/GDN.png" alt="Repute Lite - Free Bootstrap Business Template"
@@ -103,7 +112,7 @@
                         <a href="page-Fees.html" class="dropdown-toggle">Registration</a>
 
                     </li>
-                     <li class="dropdown " style="margin-left:50px;width: inherit;height: inherit;"><a
+                    <li class="dropdown " style="margin-left:50px;width: inherit;height: inherit;"><a
                             href="http://www.nuaa.edu.cn" class="navbar-brand navbar-logo" style="padding:0"> <img
                             src="assets/img/logo/nuaa.jpg" alt="Repute Lite - Free Bootstrap Business Template"
                             style="width:80px;height:80px;margin-top:-15px"> </a></li>
@@ -116,7 +125,7 @@
     <!-- END NAVBAR -->
     <!-- HERO UNIT -->
     <section class="hero-unit-slider slider-responsive no-margin">
-        <div id="carousel-hero" class="slick-carousel">
+        <div id="carousel-hero" class="slick-carousel" >
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img src="assets/img/sliders/jms11.png" class="img-responsive" style="width:100%;height:400px"
@@ -197,53 +206,52 @@
                                     style="font-family: &quot;Times New Roman&quot;, serif; font-size: 12pt;"></span>
                         </p></div>
                 </div>
-                
-   
+
+
             </div>
 
-       		<div class="container">
-                
-                           
-                            <div class="av-countdown-timer av-align-center av-default-style  avia-builder-el-4  el_after_av_heading  avia-builder-el-last  av-countdown-active"
-                                 data-year="2017" data-month="11" data-day="10" data-hour="12" data-minute="0"
-                                 data-interval="1000" data-maximum="5"><span class="av-countdown-timer-inner"><span
-                                    class="av-countdown-cell av-countdown-weeks"><span
-                                    class="av-countdown-cell-inner"><span class="av-countdown-time"
-                                                                          data-upate-width="weeks"
-                                                                          style="">12</span><span
-                                    class="av-countdown-time-label" data-label="Week"
-                                    data-label-multi="Weeks">Weeks</span></span></span><span
-                                    class="av-countdown-cell av-countdown-days"><span
-                                    class="av-countdown-cell-inner"><span class="av-countdown-time"
-                                                                          data-upate-width="days" style="">3</span><span
-                                    class="av-countdown-time-label" data-label="Day" data-label-multi="Days">Days</span></span></span><span
-                                    class="av-countdown-cell av-countdown-hours"><span
-                                    class="av-countdown-cell-inner"><span class="av-countdown-time"
-                                                                          data-upate-width="hours"
-                                                                          style="">2</span><span
-                                    class="av-countdown-time-label" data-label="Hour"
-                                    data-label-multi="Hours">Hours</span></span></span><span
-                                    class="av-countdown-cell av-countdown-minutes"><span
-                                    class="av-countdown-cell-inner"><span class="av-countdown-time"
-                                                                          data-upate-width="minutes"
-                                                                          style="">58</span><span
-                                    class="av-countdown-time-label" data-label="Minute" data-label-multi="Minutes">Minutes</span></span></span><span
-                                    class="av-countdown-cell av-countdown-seconds"><span
-                                    class="av-countdown-cell-inner"><span class="av-countdown-time"
-                                                                          data-upate-width="seconds"
-                                                                          style="">10</span><span
-                                    class="av-countdown-time-label" data-label="Second" data-label-multi="Seconds">Seconds</span></span></span></span>
-                            </div>
-                      <!-- close content main div --> <!-- section close by builder template -->      
-             </div>
+            <div class="container">
+
+
+                <div class="av-countdown-timer av-align-center av-default-style  avia-builder-el-4  el_after_av_heading  avia-builder-el-last  av-countdown-active"
+                     data-year="2017" data-month="11" data-day="10" data-hour="12" data-minute="0"
+                     data-interval="1000" data-maximum="5"><span class="av-countdown-timer-inner"><span
+                        class="av-countdown-cell av-countdown-weeks"><span
+                        class="av-countdown-cell-inner"><span class="av-countdown-time"
+                                                              data-upate-width="weeks"
+                                                              style="">12</span><span
+                        class="av-countdown-time-label" data-label="Week"
+                        data-label-multi="Weeks">Weeks</span></span></span><span
+                        class="av-countdown-cell av-countdown-days"><span
+                        class="av-countdown-cell-inner"><span class="av-countdown-time"
+                                                              data-upate-width="days" style="">3</span><span
+                        class="av-countdown-time-label" data-label="Day"
+                        data-label-multi="Days">Days</span></span></span><span
+                        class="av-countdown-cell av-countdown-hours"><span
+                        class="av-countdown-cell-inner"><span class="av-countdown-time"
+                                                              data-upate-width="hours"
+                                                              style="">2</span><span
+                        class="av-countdown-time-label" data-label="Hour"
+                        data-label-multi="Hours">Hours</span></span></span><span
+                        class="av-countdown-cell av-countdown-minutes"><span
+                        class="av-countdown-cell-inner"><span class="av-countdown-time"
+                                                              data-upate-width="minutes"
+                                                              style="">58</span><span
+                        class="av-countdown-time-label" data-label="Minute"
+                        data-label-multi="Minutes">Minutes</span></span></span><span
+                        class="av-countdown-cell av-countdown-seconds"><span
+                        class="av-countdown-cell-inner"><span class="av-countdown-time"
+                                                              data-upate-width="seconds"
+                                                              style="">10</span><span
+                        class="av-countdown-time-label" data-label="Second"
+                        data-label-multi="Seconds">Seconds</span></span></span></span>
+                </div>
+                <!-- close content main div --> <!-- section close by builder template -->
+            </div>
         </div>
     </section>
-    
-
-  
 
 
-    
     <!-- END INTRO -->
     <!-- BOXED CONTENT -->
 
@@ -315,7 +323,7 @@
 <script src="assets/js/plugins/stellar/jquery.stellar.min.js"></script>
 <script src="assets/js/repute-scripts.js"></script>
 <script src="assets/js/jquery.countdown.js"></script>
-<script  src="assets/js/avia.js"></script>
+<script src="assets/js/avia.js"></script>
 <script src="assets/js/scripts.js"></script>
 </body>
 
