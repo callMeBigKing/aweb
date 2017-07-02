@@ -30,14 +30,14 @@ $(document).ready( function() {
 		});
 
 		$('.testimonial.slick-carousel .testimonial-container').slick({
-			speed: 500,
+			speed: 2500,
 			fade: true,
 			prevArrow: '<button type="button" data-role="none" class="btn slick-prev">Previous</button>',
 			nextArrow: '<button type="button" data-role="none" class="btn slick-next">Next</button>',
 		});
 
 		$('#carousel-hero .carousel-inner').slick({
-			speed: 800,
+			speed: 2500,
 			dots: true,
 			fade: true,
 			autoplay: true,
@@ -45,8 +45,12 @@ $(document).ready( function() {
 			prevArrow: '<button type="button" data-role="none" class="carousel-control left slick-prev">Previous</button>',
 			nextArrow: '<button type="button" data-role="none" class="carousel-control right slick-next">Next</button>',
 		});
+
+		$('.slick-carousel').carousel({
+        interval: 10000
+        });
 	}
-	
+
 
 	/*----------------------------/
 	/* PARALLAX

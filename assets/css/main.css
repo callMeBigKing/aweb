@@ -104,6 +104,7 @@ hr {
   padding: 5px 0;
   margin: 0;
   border-bottom: 1px solid #eaeaea;
+  background-color: #ebebeb;
 }
 .page-header .container {
   position: relative;
@@ -116,7 +117,7 @@ hr {
 }
 .page-header .page-title {
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 20px;
 }
 @media screen and (max-width: 768px) {
   .page-header .breadcrumb,
@@ -150,6 +151,29 @@ footer {
   line-height: 1.6;
 }*/
 
+.footer-site__corporate {
+    border-left: 2px dotted #ccc;
+    border-left: 2px dotted rgba(255, 255, 255, .4);
+    border-right: 2px dotted #ccc;
+    border-right: 2px dotted rgba(255, 255, 255, .4);
+    padding: 40px 0 25px 0;
+    margin-bottom: 28px;
+    /*display: none*/
+}
+.link-to-startpage {
+    display: block;
+    height: 100%;
+    text-indent: -9999px
+}
+
+.footer-site__corporate .footer-site__corporate-content {
+  padding-top: 60px;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  background: url(../img/logo/nuaafooter.png) 0 0 no-repeat;
+  background-size: contain
+}
 footer a {
   color: #fff;
 }
@@ -478,6 +502,10 @@ footer .logo {
   }
 }
 
+
+
+
+
 .navbar-collapse {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -485,7 +513,7 @@ footer .logo {
 }
 
 .navbar-brand {
-  padding: 12px 15px;
+  padding: 0px 15px;
 }
 .navbar-brand > img {
   width: 100px;
@@ -2390,4 +2418,42 @@ ul.social-icons li a i {
 
 .margin-bottom-50px {
   margin-bottom: 50px !important;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-col-2,.footer-col-1-1,.header-site__logo img {
+        display: none
+    }
+
+
+  .navigation-main__wrp-1 {
+    background: #003f75;
+    height:30px;
+}
+   .header-site__logo_GDN{
+
+   }
+   .header-site__logo_NUAA{
+
+   }
+   .slider-img-media-da{
+      width:auto;
+     height:auto;
+   }
+}
+.header-site__logo_GDN{
+  width:200px;
+  height:80px;
+}
+.header-site__logo_NUAA{
+  width:95px;
+  height:80px;
+
+}
+@media screen and (min-width: 1000px) {
+  .slider-img-media-da {
+    width: 100%;
+    height: 400px;
+    display: block;
+  }
 }
