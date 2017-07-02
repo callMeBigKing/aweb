@@ -2421,8 +2421,8 @@ ul.social-icons li a i {
 }
 
 @media screen and (max-width: 800px) {
-    .footer-col-2,.footer-col-1-1,.header-site__logo img {
-        display: none
+   .logo-nuaa-toggle, .footer-col-2,.footer-col-1-1,.header-site__logo img {
+        display: none !important
     }
 
 
