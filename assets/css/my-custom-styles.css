@@ -1,5 +1,14 @@
 
+a[href$=".DOC"]:before, a[href$=".DOCX"]:before, a[href$=".EPS"]:before, a[href$=".PDF"]:before, a[href$=".PPT"]:before, a[href$=".PPTX"]:before, a[href$=".TIF"]:before, a[href$=".TXT"]:before, a[href$=".XLS"]:before, a[href$=".XLSX"]:before, a[href$=".ZIP"]:before, a[href$=".doc"]:before, a[href$=".docx"]:before, a[href$=".eps"]:before, a[href$=".pdf"]:before, a[href$=".ppt"]:before, a[href$=".pptx"]:before, a[href$=".tif"]:before, a[href$=".txt"]:before, a[href$=".xls"]:before, a[href$=".xlsx"]:before, a[href$=".zip"]:before {
+    content: '\f019';
+    font-family: FontAwesome;
+    padding-right: .4em;
+}
+
+
 /***** Coming Soon *****/
+
+
 
 .coming-soon {
     margin: 0 auto;
