@@ -44,8 +44,6 @@ a[href$=".DOC"]:before, a[href$=".DOCX"]:before, a[href$=".EPS"]:before, a[href$
 
 /***** Coming Soon *****/
 
-
-
 .coming-soon {
     margin: 0 auto;
     text-align: center;
