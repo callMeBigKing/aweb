@@ -227,3 +227,28 @@ Countdown
 .av-align-center {
 	text-align: center;
 }
+
+.bodytext {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.active5 {
+	color: #1E06B7;
+}
+
+.orangess:hover {
+	background-color: #F0590A;
+	
+}
+
+.turnreds:hover {
+	color: #0818C4;
+	text-decoration: underline;
+	
+}
+
+.activ6 {
+	font-size: 17px;
+	
+}

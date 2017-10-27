@@ -3978,6 +3978,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+	font-size: 16px;
 }
 .nav > li {
   position: relative;
@@ -6765,6 +6766,14 @@ button.close {
 }
 
 .active2 {
-	color:#0805EC;
-	background:#C6E539;
+	color: #FDF8F8;
+	background:#B53032;
+}
+
+.active3 {
+	font-size: 16px;
+}
+
+.active4 {
+	color: #F30408;
 }
