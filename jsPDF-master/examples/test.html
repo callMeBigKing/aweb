@@ -1,0 +1,60 @@
+<!doctype>
+<html>
+<head>
+    <title>jsPDF</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.8.17.custom.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="../dist/jspdf.debug.js"></script>
+    <script type="text/javascript" src="js/basic.js"></script>
+
+    <script>
+        $(function () {
+            $("#accordion-basic, #accordion-text, #accordion-graphic").accordion({
+                autoHeight: false,
+                navigation: true
+            });
+            $("#tabs").tabs();
+            $(".button").button();
+        });
+//        $(document).ready( function() {
+//            var doc = new jsPDF();
+//            doc.text(20, 20, 'Hello world!');
+//            doc.text(20, 30, 'This is client-side Javascript, pumping out a PDF.');
+//            doc.addPage();
+//            doc.text(20, 20, 'Do you like that?');
+//            var str=$("#ddd").text();
+//            doc.text(20, 40, str);
+//            doc.save('Test.pdf');
+//
+//        });
+        $(document).ready( function() {
+
+                     $("button").click(function(){
+                       var doc = new jsPDF();
+                    doc.text(20, 20, 'Hello world!');
+                    doc.text(20, 30, 'This is client-side Javascript, pumping out a PDF.');
+
+
+                    var str=$("#test").val();
+                    doc.text(20, 40, str);
+                    doc.save('Test.pdf');
+             });
+
+                });
+
+    </script>
+</head>
+<body>
+
+
+<input type="text" id="test" value="米老鼠">
+
+<button class="ddd" id="ddd" >dddd</button>
+
+</body>
+</html>
